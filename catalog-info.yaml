@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-examples
+  description: Repository containing Backstage example configurations and components
+  annotations:
+    github.com/project-slug: viraktamathas/backstage-examples
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - backstage
+    - examples
+spec:
+  type: library
+  lifecycle: experimental
+  owner: user:viraktamathas
+  system: backstage
